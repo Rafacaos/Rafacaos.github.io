@@ -1,0 +1,281 @@
+
+/*HEADER*/
+
+.banner {
+	position: relative;
+	width: 100%;
+}
+
+.foto-topo{
+	width: 10%;
+	top: 0px;
+	right: 45%;
+	margin: 0 auto;
+	position: absolute;
+    border-radius: 100%;
+	text-align: center;
+	padding: 40px 0;
+	opacity : 5%;
+	transition: 600ms;
+}
+
+.foto-topo:hover{
+	width: 15%;
+	right: 45%;
+	opacity : 50%;
+	filter: drop-shadow(0px 50px 30px #000000)
+}
+
+.titulo{
+	bottom: 40px;
+	right: 40px;
+	position: absolute;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 80px;
+	font-family: 'IM Fell English SC', serif;
+	
+}
+
+.body {
+    font-family: 'Press Start 2P', cursive;
+    background: #3f3f44;
+}
+
+.bloco-nav{
+	position: relative;
+	background: #3f3f44;
+	height: 40px;
+	width: 100%;
+	border: 2px solid #FFFFFF;
+}
+
+.icon:before {
+    content: "/";
+}
+
+nav {
+	background: #3f3f44;
+	position: absolute;
+	width: 100%;
+}
+
+nav li {
+	display: inline;
+	margin: 5px 15px;
+	padding: 5px 0;
+}
+
+
+nav a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	margin: 5px 15px;
+	transition: 600ms;
+}
+
+nav a:hover {
+	color: #27aa80;
+	font-size: 24px;
+}
+
+
+/*MAIN*/
+
+
+.main{
+	color: #FFFAFA;
+	padding-top: 40px;
+	margin-top: -30px;
+	background: linear-gradient(#000000, #3f3f44);
+}
+
+.section{
+	margin: 30px 25px 50px 25px;
+}
+
+.alan-turing{
+	margin: 40px 25px;
+}
+
+.h2{
+	line-height: 2;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin: 20px 0;
+}
+
+.sub-h{
+	text-transform: uppercase;
+	font-size: 18px;
+	margin: 20px 0 15px 0;
+	padding: 0px;
+	line-height: 2;
+}
+
+.foto {
+    width: 25%;
+    float: left;
+    margin: 15px 20px 20px 0;
+    border-radius: 5px;
+}
+
+.vida-pessoal, .legado-alan{
+	clear: left;
+}
+
+.p{
+	line-height: 2;
+	margin: 15px 0;
+}
+
+.li{
+	line-height: 2;
+	margin:20px 20px;
+	padding: 0 20px;
+}
+
+.icon-li:before {
+    content: "★ ";
+    text-transform: uppercase;
+}
+
+
+.video {
+    width: 50%;
+    margin: 2em auto;
+}
+
+.h3{
+	text-transform: uppercase;
+	font-size: 18px;
+	margin: 25px 0;
+	padding: 0 20px;
+}
+
+.mapa-conteudo {
+    width: 100%;
+    margin: 20px auto;
+}
+
+
+/*FOOTER*/
+
+
+.footer {
+	text-align: center;
+	background: url("img/bg.jpg");
+	padding: 40px 0;
+}
+
+.referencia{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+#referencialinha{
+	    font-size: 20px;
+	    color: black;
+	    text-decoration: none;
+}
+
+.foto-footer{
+    border-radius: 100px;
+
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+@media screen and (max-width: 800px){
+
+	.titulo{
+		top: 35%;
+		right: 40px;
+		position: absolute;
+		font-size: 30px;	
+	}
+
+	.h2, .h3, .icon{
+		line-height: 1.5;
+	}
+
+	.p, .li{
+		font-size: 20px;
+		margin: 20px 5px; 
+	}
+
+	.foto {
+	    width: 50%;
+	    float: left;
+	    margin: 10px 20px 20px 0;
+	    border-radius: 5px;
+    }
+
+    .video {
+	    width: 70%;
+	    margin: 2em auto;
+	}
+
+	.referencia {
+		margin: 30px 25px 50px 25px;
+	    font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.titulo{
+		top: 20%;
+		right: 5px;
+		position: absolute;
+		font-size: 30px;
+	}
+
+	.header-div{
+		height: 200px;
+	}
+
+	nav li {
+		display: inline-block;
+	}
+
+	.h2, .h3, .icon{
+		line-height: 1.5;
+	}
+
+	.p, .li{
+		margin:20px 5px; 
+		font-size: 13px;
+		word-wrap: break-word;
+	}
+
+	.foto {
+	    width: 100%;
+	    margin: 10px 20px 20px 0;
+	    border-radius: 5px;
+    }
+
+    .video {
+	    width: 100%;
+	    margin: 2em auto;
+	}
+
+	.referencia{
+	    font-size: 13px;
+	}
+
+	#referencialinha{/
+	    font-size: 20px;
+	    color: #000000;
+	    text-decoration: none;
+	    word-wrap: break-word;
+	}
+}
